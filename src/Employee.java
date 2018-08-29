@@ -80,13 +80,13 @@ public class Employee {
 	 */
 	public int seniorityLevel() {
 		
-		if(yearService >= 10){
+		if(this.yearService >= 10){
 			return 3;
 		}
-		else if(yearService >= 5){
+		else if(this.yearService >= 5){
 			return 2;
 		}
-		else if(yearService >=1){
+		else if(this.yearService >=1){
 			return 1;
 		}
 		else{
