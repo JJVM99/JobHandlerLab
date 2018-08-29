@@ -37,6 +37,7 @@ public class Position {
 	public void setSalary(double hSalary) {
 		this.hSalary = hSalary;
 	}
+	
 
 	public boolean isAvailable() {
 		return available;
